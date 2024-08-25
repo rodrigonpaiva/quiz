@@ -101,12 +101,12 @@ If you want to contribute to the project, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://fr.wikipedia.org/wiki/Licence_MIT) file for details.
 
 ---
 
 **Developed by [Rodrigo Paiva]**  
-[LinkedIn](https://www.linkedin.com/rodrigonpaiva) | [Email](contact@rodrigonpaiva.com)
+[LinkedIn](https://www.linkedin.com/rodrigonpaiva) | [Email](mailto:contact@rodrigonpaiva.com)
 
 ---
 
