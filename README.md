@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quiz App - Next.js
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This repository contains the source code for a quiz application developed using **Next.js**, a React framework that offers server-side rendering and static page generation. The goal of the app is to provide an interactive platform where users can answer quizzes and test their knowledge on various topics.
+
+## Features
+
+- **Question and Answer System:** Intuitive interface for multiple-choice questions.
+- **Scoring:** Calculation and display of scores based on users' answers.
+- **Timer (optional):** Time limitation for answering each question.
+- **Immediate Feedback:** Users receive instant feedback on their answers (correct/incorrect).
+- **Customizable Themes:** Option for users to choose different visual themes.
+- **Responsive Design:** Layout adapted for desktops, tablets, and mobile devices.
+
+## Technologies Used
+
+- **Next.js:** React framework for server-side rendering and web application development.
+- **React:** JavaScript library for building user interfaces.
+- **CSS Modules/Styled Components:** For modular and isolated application styling.
+- **TypeScript (optional):** For static typing and reducing errors during development.
+
+## How to Run the Project
+
+### Prerequisites
+
+- **Node.js** (v14.x or higher)
+- **npm** or **yarn**
+
+### Steps to Run
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/rodrigonpaiva/quiz.git
+   cd quiz
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server:**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Access the application:**
+
+   Open your browser and go to `http://localhost:3000`.
+
+## Folder Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+├── components      # Reusable application components
+├── pages           # Next.js pages (routing)
+│   ├── index.js    # Quiz home page
+├── public          # Static files (images, icons, etc.)
+├── styles          # Styling files (CSS/SASS)
+└── utils           # Utility functions and helpers
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To deploy the application in production, follow the steps below:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Build the application:**
 
-## Learn More
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Start the application:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   **Note:** For deployment on services like **Vercel**, **Netlify**, or **Heroku**, refer to their specific documentation.
 
-## Deploy on Vercel
+## Contribution
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you want to contribute to the project, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/feature-name`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the repository (`git push origin feature/feature-name`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Developed by [Rodrigo Paiva]**  
+[LinkedIn](https://www.linkedin.com/rodrigonpaiva) | [Email](contact@rodrigonpaiva.com)
+
+---
+
+I hope the quiz app is useful and fun! If you have any questions or suggestions, feel free to open an issue or get in touch
